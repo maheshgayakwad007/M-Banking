@@ -1,0 +1,78 @@
+[{
+  "_id": {
+    "$oid": "68b3d0e36cd4ca644c253741"
+  },
+  "name": "admin",
+  "email": "admin@gmail.com",
+  "contact": "990909099",
+  "profilePic": "",
+  "password": "$2b$10$twuk3TiJ2NkWHeLfoEkrW.yg9RM5U8zpKyCLC50rgmNL4TcbaSM6y",
+  "role": "admin",
+  "isBanned": false,
+  "balance": 5000,
+  "bankDetails": {
+    "bankName": "214",
+    "bankNumber": "32424",
+    "ifscCode": "3432",
+    "upiId": "4322"
+  },
+  "createdAt": {
+    "$date": "2025-08-31T04:34:43.459Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-31T04:34:43.459Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b3d4af6cd4ca644c25378c"
+  },
+  "name": "prasad",
+  "email": "prasadpatil2209@gmail.com",
+  "contact": "8989898900",
+  "profilePic": "1756615855022.jpg",
+  "password": "$2b$10$5TAbSFZJZgK4KIXangjIjuGwtizL.ldBw6DR8pIwRXMZxbWSxXGLC",
+  "role": "user",
+  "isBanned": false,
+  "balance": 2355,
+  "bankDetails": {
+    "bankName": "idfc",
+    "bankNumber": "433",
+    "ifscCode": "434",
+    "upiId": "43"
+  },
+  "createdAt": {
+    "$date": "2025-08-31T04:50:55.244Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-01T08:56:31.241Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b3d4d36cd4ca644c2537a0"
+  },
+  "name": "pavan patil",
+  "email": "pavanpatil2204@gmail.com",
+  "contact": "7887877887",
+  "profilePic": "",
+  "password": "$2b$10$g4IgTe7t5LP69qD1rbmXd.epGNfNNmgJ.Gs4zHziTLq2JdeqZnFtG",
+  "role": "user",
+  "isBanned": false,
+  "balance": 7648,
+  "bankDetails": {
+    "bankName": "ppp",
+    "bankNumber": "09909",
+    "ifscCode": "9090",
+    "upiId": "0909"
+  },
+  "createdAt": {
+    "$date": "2025-08-31T04:51:31.395Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-01T08:56:31.342Z"
+  },
+  "__v": 0
+}]

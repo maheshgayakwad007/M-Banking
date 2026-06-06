@@ -1,0 +1,163 @@
+/* AllTransactions.css */
+
+/* General styles */
+.users-container, .transactions-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Loading spinner */
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-top: 4px solid #3498db;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin-bottom: 10px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: 600;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Avatar styles */
+.user-avatar, .counterparty-avatar {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.user-avatar img, .counterparty-avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.avatar-placeholder {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.avatar-placeholder.small {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+}
+
+/* User header */
+.user-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.user-header h2 {
+    margin: 0 20px 0 0;
+}
+
+.user-balance {
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Transaction styles */
+.transaction-id {
+    font-family: monospace;
+    font-size: 0.9em;
+}
+
+.positive {
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+.negative {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.type {
+    text-transform: capitalize;
+}
+
+.type.received, type.credit {
+    color: #2ecc71;
+}
+
+.type.sent, type.withdraw {
+    color: #e74c3c;
+}
+
+/* Buttons */
+.back-button, .view-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.back-button:hover, .view-button:hover {
+    background-color: #2980b9;
+}
+
+.user-cell {
+    display: flex;
+    align-items: center;
+}
+
+.counterparty {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "68b44b69e6b712085df16380"
+  },
+  "title": "Blockchain Tampering Detected",
+  "description": "Block #1 has been tampered with. Hash mismatch detected.",
+  "blockIndex": 1,
+  "severity": "high",
+  "resolved": true,
+  "status": "Resolved",
+  "timestamp": {
+    "$date": "2025-08-31T13:17:29.778Z"
+  },
+  "__v": 0,
+  "resolvedAt": {
+    "$date": "2025-08-31T13:18:45.267Z"
+  }
+}]

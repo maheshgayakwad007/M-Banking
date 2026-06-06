@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "68b52fcdb514b4a92d483051"
+  },
+  "type": "sendMoney",
+  "user": {
+    "$oid": "68b3d4d36cd4ca644c2537a0"
+  },
+  "__v": 0,
+  "expiresAt": {
+    "$date": "2025-09-01T06:19:58.943Z"
+  },
+  "otp": "285750",
+  "verified": false
+},
+{
+  "_id": {
+    "$oid": "68b55ea4b514b4a92d4830e2"
+  },
+  "type": "credit",
+  "user": {
+    "$oid": "68b3d4af6cd4ca644c25378c"
+  },
+  "__v": 0,
+  "expiresAt": {
+    "$date": "2025-09-01T08:56:40.732Z"
+  },
+  "otp": "270690",
+  "verified": true
+}]
